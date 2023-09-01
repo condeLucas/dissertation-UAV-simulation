@@ -1,0 +1,62 @@
+{
+    "SettingsVersion": 1.2,
+    "SimMode": "Multirotor",
+    "OriginGeopoint": {
+      "Latitude": 51.43672,
+      "Longitude": 7.33577,
+      "Altitude": 94
+    },
+    "Vehicles": {
+        "D1": {
+            "VehicleType": "SimpleFlight",
+            "DefaultVehicleState": "Disarmed",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "Pitch": 0,
+            "Roll": 0,
+            "Yaw": 0
+        }
+    },
+    "CameraDefaults": {
+        "CaptureSettings": [
+            {
+                "ImageType": 0,
+                "Width": 2048,
+                "Height": 1024,
+                "FOV_Degrees": 90,
+                "MotionBlurAmount": 0
+            },
+            {
+                "ImageType": 5,
+                "Width": 2048,
+                "Height": 1024,
+                "FOV_Degrees": 90,
+                "MotionBlurAmount": 0
+            }
+        ],
+        "Gimbal": {
+          "Stabilization": 1,
+          "Pitch": -90, "Roll": 0, "Yaw": 0
+        },
+        "X": 0, "Y": 0, "Z": 0
+    },
+    "SubWindows": [
+        {
+            "WindowID": 0,
+            "CameraName": "3",
+            "ImageType": 0,
+            "VehicleName": "D1",
+            "Visible": true,
+            "External": false
+        },
+        {
+            "WindowID": 1,
+            "CameraName": "3",
+            "ImageType": 5,
+            "VehicleName": "D1",
+            "Visible": true,
+            "External": false
+        }
+    ]
+}
